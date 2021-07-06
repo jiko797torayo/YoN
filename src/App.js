@@ -1,12 +1,10 @@
-import { NoButton } from "./components/atoms/NoButton";
-import { YesButton } from "./components/atoms/YesButton";
 import "./styles.css";
+import { Answer } from "./components/molecules/Answer";
 
 export default function App() {
   return (
     <div className="App">
-      <NoButton />
-      <YesButton />
+      <Answer></Answer>
     </div>
   );
 }
