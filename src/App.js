@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Answer } from "./components/molecules/Answer";
+import { Answer } from "./components/organisms/Answer";
 
 export default function App() {
   return (
